@@ -193,13 +193,13 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 age = 16
 has_license = False
 
-if age >= 18: 
+if age >= 18 and has_license == True: 
   print("You can drive")
 
-elif age < 18: 
+elif age < 18 and has_license == False: 
   print("You can't drive yet. You must be 18 years old and have a license")
 
-elif age >= 18:
+elif age >= 18 and has_license == False:
   print("You can't drive. You need to have a license")
 
 # Decision Making Practice #3
@@ -217,20 +217,22 @@ elif age >= 18:
 
 # Use the code already provided to set up the appropriate flow control structure and check those conditions. Evaluate a candidate who knows French, but does not know how to program in Python.
 
+# speak_french = input("do u speak french? (yes or no) ")
+# knows_python = input("do u know python? (yes or no)" )
+# speak_french = True
+# knows_python = False
 
-speak_french = True
-knows_python = False
+# if speak_french == ("yes") and knows_python = ("yes"):
+# "You meet the requirements to apply"
 
-"You meet the requirements to apply"
+# "To apply, you need to know how to program in Python and speak French"
 
-"To apply, you need to know how to program in Python and speak French"
+# "To apply, you need to speak French"
 
-"To apply, you need to speak French"
-
-"To apply, you need to know how to program in Python"
+# "To apply, you need to know how to program in Python"
 
 
-# Decision Making Practice #4
+# # Decision Making Practice #4
 # Enter your name
 
 # Enter your relatives name
