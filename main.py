@@ -199,7 +199,8 @@ if age >= 18:
 elif age < 18: 
   print("You can't drive yet. You must be 18 years old and have a license")
 
-elif age <"You can't drive. You need to have a license"
+elif age >= 18:
+  print("You can't drive. You need to have a license")
 
 # Decision Making Practice #3
 # To access a certain job, the candidate must be able to program in Python and speak French.
