@@ -190,17 +190,17 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # "You can't drive. You need to have a license"
 
 # Use the code base already provided to set up the appropriate flow control structure and check those conditions.
-age = 16
-has_license = False
+# age = 16
+# has_license = False
 
-if age >= 18 and has_license == True: 
-  print("You can drive")
+# if age >= 18 and has_license == True: 
+#   print("You can drive")
 
-elif age < 18 and has_license == False: 
-  print("You can't drive yet. You must be 18 years old and have a license")
+# elif age < 18 and has_license == False: 
+#   print("You can't drive yet. You must be 18 years old and have a license")
 
-elif age >= 18 and has_license == False:
-  print("You can't drive. You need to have a license")
+# elif age >= 18 and has_license == False:
+#   print("You can't drive. You need to have a license")
 
 # Decision Making Practice #3
 # To access a certain job, the candidate must be able to program in Python and speak French.
@@ -253,10 +253,23 @@ elif age >= 18 and has_license == False:
 
 ###################################loops intro######################################
 # queue videos
-#what is iteration?
-#what are for loops?
+# #what is iteration?
+# #what are for loops?
+# names = ["John", "Ann", "Chad", "Lee"]
+# for item in names:
+#   print("Hello " + item)
 
 
+my_list = ['a', 'b', 'c', 'd']
+for letter in my_list:
+  letter_number = my_list.index(letter) + 1
+  print(f"letter {letter_number}: {letter}")
+  
+
+
+
+
+  
 # For Loops Practice #1
 # Using For loops, greet all members of a class, printing "Hello" + their name.
 
