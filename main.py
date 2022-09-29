@@ -260,11 +260,18 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 #   print("Hello " + item)
 
 
-my_list = ['a', 'b', 'c', 'd']
-for letter in my_list:
-  letter_number = my_list.index(letter) + 1
-  print(f"letter {letter_number}: {letter}")
-  
+# my_list = ['a', 'b', 'c', 'd']
+# for letter in my_list:
+#   letter_number = my_list.index(letter) + 1
+#   print(f"letter {letter_number}: {letter}")
+
+# my_list = ['paul', 'laura', 'jacob', 'louis', 'julia']
+
+# for name in my_list:
+#   if name.startswith("o"):
+#     print(name)
+#   else:
+#     print("this name does not begin with o")
 
 
 
@@ -276,7 +283,8 @@ for letter in my_list:
 # For example: "Hello Norville"
 
 students = ["Norville", "Fred", "Velma", "Daphne"]
-
+for name in students:
+  print("hello " + name)
 
 
 
